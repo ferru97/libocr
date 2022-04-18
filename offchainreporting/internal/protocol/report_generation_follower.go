@@ -507,7 +507,7 @@ func (repgen *reportGenerationState) shouldReport(observations []AttributedSigne
 
 	var zero_count int = 0
 	for _, signed_observation := range observations {
-   	    if signed_observation.SignedObservation.Observation.v.Cmp(i(0)) != 0{
+   	    if signed_observation.SignedObservation.Observation.Cmp(0) != 0{
     	       zero_count = zero_count + 1
             }
 	}
