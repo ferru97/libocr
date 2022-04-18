@@ -3,7 +3,7 @@ package managed
 import (
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/ferru97/libocr/offchainreporting2/types"
 )
 
 // Convenience wrapper around OffchainConfigDigester

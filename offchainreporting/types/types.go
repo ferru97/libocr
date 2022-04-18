@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/ferru97/libocr/commontypes"
 	"golang.org/x/crypto/curve25519"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/ferru97/libocr/commontypes"
 )
 
 type Limiter interface {

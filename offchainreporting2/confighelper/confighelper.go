@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/smartcontractkit/libocr/offchainreporting2/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting2/reportingplugin/median"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/ferru97/libocr/offchainreporting2/internal/config"
+	"github.com/ferru97/libocr/offchainreporting2/reportingplugin/median"
+	"github.com/ferru97/libocr/offchainreporting2/types"
 )
 
 // OracleIdentity is identical to the internal type in package config.

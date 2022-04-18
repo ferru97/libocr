@@ -6,13 +6,13 @@ import (
 
 	"go.uber.org/multierr"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	ocr2types "github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/ragep2p"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/ferru97/libocr/commontypes"
+	ocr2types "github.com/ferru97/libocr/offchainreporting2/types"
+	"github.com/ferru97/libocr/ragep2p"
+	ragetypes "github.com/ferru97/libocr/ragep2p/types"
+	"github.com/ferru97/libocr/subprocesses"
 
-	"github.com/smartcontractkit/libocr/internal/loghelper"
+	"github.com/ferru97/libocr/internal/loghelper"
 )
 
 var (

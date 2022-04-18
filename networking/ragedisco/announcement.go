@@ -9,11 +9,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	ragetypes "github.com/ferru97/libocr/ragep2p/types"
 
 	"github.com/pkg/errors"
 
-	"github.com/smartcontractkit/libocr/networking/ragedisco/serialization"
+	"github.com/ferru97/libocr/networking/ragedisco/serialization"
 	"google.golang.org/protobuf/proto"
 )
 

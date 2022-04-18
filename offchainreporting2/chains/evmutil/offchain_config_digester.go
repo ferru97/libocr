@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/ferru97/libocr/offchainreporting2/types"
 )
 
 var _ types.OffchainConfigDigester = EVMOffchainConfigDigester{}

@@ -5,13 +5,13 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization/protobuf"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/ferru97/libocr/commontypes"
+	"github.com/ferru97/libocr/internal/loghelper"
+	"github.com/ferru97/libocr/offchainreporting/internal/protocol"
+	"github.com/ferru97/libocr/offchainreporting/internal/serialization"
+	"github.com/ferru97/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/ferru97/libocr/offchainreporting/types"
+	"github.com/ferru97/libocr/subprocesses"
 )
 
 type SerializingEndpoint struct {

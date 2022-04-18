@@ -9,10 +9,10 @@ import (
 
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	dhtrouter "github.com/smartcontractkit/libocr/networking/dht-router"
-	ocr1types "github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/ferru97/libocr/commontypes"
+	"github.com/ferru97/libocr/internal/loghelper"
+	dhtrouter "github.com/ferru97/libocr/networking/dht-router"
+	ocr1types "github.com/ferru97/libocr/offchainreporting/types"
 )
 
 var (

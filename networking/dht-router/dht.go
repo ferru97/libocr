@@ -8,8 +8,8 @@ import (
 	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/ferru97/libocr/commontypes"
+	"github.com/ferru97/libocr/offchainreporting/types"
 
 	"github.com/pkg/errors"
 )

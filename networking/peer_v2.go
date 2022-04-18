@@ -6,12 +6,12 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	"github.com/smartcontractkit/libocr/networking/ragedisco"
-	ocr2types "github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/ragep2p"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
+	"github.com/ferru97/libocr/commontypes"
+	"github.com/ferru97/libocr/internal/loghelper"
+	"github.com/ferru97/libocr/networking/ragedisco"
+	ocr2types "github.com/ferru97/libocr/offchainreporting2/types"
+	"github.com/ferru97/libocr/ragep2p"
+	ragetypes "github.com/ferru97/libocr/ragep2p/types"
 )
 
 // concretePeerV2 represents a ragep2p peer with one peer ID listening on one port

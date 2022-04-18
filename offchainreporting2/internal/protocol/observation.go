@@ -7,8 +7,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/smartcontractkit/libocr/commontypes"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
+	"github.com/ferru97/libocr/commontypes"
+	"github.com/ferru97/libocr/offchainreporting2/types"
 )
 
 type SignedObservation struct {

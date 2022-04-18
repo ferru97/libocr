@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/smartcontractkit/libocr/commontypes"
+	"github.com/ferru97/libocr/commontypes"
 
-	"github.com/smartcontractkit/libocr/internal/loghelper"
-	nettypes "github.com/smartcontractkit/libocr/networking/types"
-	"github.com/smartcontractkit/libocr/offchainreporting2/types"
-	"github.com/smartcontractkit/libocr/ragep2p"
-	ragetypes "github.com/smartcontractkit/libocr/ragep2p/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/ferru97/libocr/internal/loghelper"
+	nettypes "github.com/ferru97/libocr/networking/types"
+	"github.com/ferru97/libocr/offchainreporting2/types"
+	"github.com/ferru97/libocr/ragep2p"
+	ragetypes "github.com/ferru97/libocr/ragep2p/types"
+	"github.com/ferru97/libocr/subprocesses"
 )
 
 type ragep2pDiscovererState int

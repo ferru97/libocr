@@ -3,7 +3,7 @@ package median
 import (
 	"math/big"
 
-	"github.com/smartcontractkit/libocr/bigbigendian"
+	"github.com/ferru97/libocr/bigbigendian"
 )
 
 var i = big.NewInt
