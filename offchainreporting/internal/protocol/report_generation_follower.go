@@ -505,12 +505,12 @@ func (repgen *reportGenerationState) shouldReport(observations []AttributedSigne
 		"unfulfilledRequest":        unfulfilledRequest,
 	})
 
-	var zero_count int = 0
+	/*var zero_count int = 0
 	for _, signed_observation := range observations {
    	    if signed_observation.SignedObservation.Observation.Cmp(0) != 0{
     	       zero_count = zero_count + 1
             }
-	}
+	}*/
 
 
 	// The following is more succinctly expressed as a disjunction, but breaking
@@ -534,7 +534,7 @@ func (repgen *reportGenerationState) shouldReport(observations []AttributedSigne
 		})
 		return true
 	}*/
-	if unfulfilledRequest && zero_count>repgen.config.F {
+	if unfulfilledRequest {
 		logger.Info("shouldReport: yes, because a new report has been explicitly requested", types.LogFields{
 			"result": true,
 		})
