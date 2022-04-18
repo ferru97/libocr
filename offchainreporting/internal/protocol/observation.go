@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/signature"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/ferru97/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/ferru97/libocr/offchainreporting/internal/signature"
+	"github.com/ferru97/libocr/offchainreporting/types"
 )
 
 type SignedObservation struct {

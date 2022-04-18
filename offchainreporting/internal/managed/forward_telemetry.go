@@ -3,9 +3,9 @@ package managed
 import (
 	"context"
 
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization/protobuf"
-	"github.com/smartcontractkit/libocr/offchainreporting/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
+	"github.com/ferru97/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/ferru97/libocr/offchainreporting/loghelper"
+	"github.com/ferru97/libocr/offchainreporting/types"
 	"google.golang.org/protobuf/proto"
 )
 

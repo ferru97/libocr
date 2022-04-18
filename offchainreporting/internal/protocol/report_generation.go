@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/ferru97/libocr/offchainreporting/internal/config"
+	"github.com/ferru97/libocr/offchainreporting/loghelper"
+	"github.com/ferru97/libocr/offchainreporting/types"
+	"github.com/ferru97/libocr/subprocesses"
 )
 
 // Report Generation protocol corresponding to alg. 2 & 3.

@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/config"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/protocol"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/serialization/protobuf"
-	"github.com/smartcontractkit/libocr/offchainreporting/internal/shim"
-	"github.com/smartcontractkit/libocr/offchainreporting/loghelper"
-	"github.com/smartcontractkit/libocr/offchainreporting/types"
-	"github.com/smartcontractkit/libocr/subprocesses"
+	"github.com/ferru97/libocr/offchainreporting/internal/config"
+	"github.com/ferru97/libocr/offchainreporting/internal/protocol"
+	"github.com/ferru97/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/ferru97/libocr/offchainreporting/internal/shim"
+	"github.com/ferru97/libocr/offchainreporting/loghelper"
+	"github.com/ferru97/libocr/offchainreporting/types"
+	"github.com/ferru97/libocr/subprocesses"
 )
 
 // RunManagedOracle runs a "managed" version of protocol.RunOracle. It handles
