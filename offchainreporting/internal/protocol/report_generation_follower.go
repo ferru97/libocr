@@ -505,10 +505,18 @@ func (repgen *reportGenerationState) shouldReport(observations []AttributedSigne
 		"unfulfilledRequest":        unfulfilledRequest,
 	})
 
+	var zero_count int = 0
+	for _, signed_observation := range observations {
+   	    if signed_observation.SignedObservation.Observation.v.Cmp(i(0)) != 0{
+    	       zero_count = zero_count + 1
+            }
+	}
+
+
 	// The following is more succinctly expressed as a disjunction, but breaking
 	// the branches up into their own conditions makes it easier to check that
 	// each branch is tested, and also allows for more expressive log messages
-	if initialRound {
+	/*if initialRound {
 		logger.Info("shouldReport: yes, because it's the first round of the first epoch", types.LogFields{
 			"result": true,
 		})
@@ -525,8 +533,8 @@ func (repgen *reportGenerationState) shouldReport(observations []AttributedSigne
 			"result": true,
 		})
 		return true
-	}
-	if unfulfilledRequest {
+	}*/
+	if unfulfilledRequest && zero_count>repgen.config.F {
 		logger.Info("shouldReport: yes, because a new report has been explicitly requested", types.LogFields{
 			"result": true,
 		})
